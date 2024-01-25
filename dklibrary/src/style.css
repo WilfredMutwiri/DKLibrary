@@ -1,0 +1,62 @@
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom styles go here */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+.navHolder{
+  width: 100%;
+  background-color:#e0dfdf;
+}
+.navContainer{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.navContainer h2{
+  color: #800020;
+}
+#link{
+  text-decoration: none;
+  margin-left: 20px;
+  cursor: pointer;
+  color:black;
+  font-size: 17px;
+  /* padding: 10px; */
+}
+#link:hover{
+  color:#800020;
+}
+#login{
+  color: white;
+  background-color:#800020;
+  padding: 10px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  align-items: center;
+  text-decoration: none;
+}
+/* Home component */
+.HomeContainer{
+padding-top: 20px;
+background-color:#f5f5f5;
+}
+.HomeContainer h2{
+  color: #800020;
+  text-align: center;
+}
+.NavLinks{
+@apply block md:flex
+}
+
